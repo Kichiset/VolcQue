@@ -2,11 +2,14 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import Storage from 'react-native-storage';
+import { AsyncStorage } from 'react-native';
 
 import Main from './screens/Main';
 import HowToUse from './screens/subScreens/HowToUse';
 import ContensMain from './screens/subScreens/ContensMain';
 import ContentsSelectVolcano from './screens/subScreens/ContentsSelectVolcano';
+import VolcPage from './screens/subScreens/VolcPage'
 
 const Stack = createNativeStackNavigator();
 
@@ -18,6 +21,7 @@ export default function App() {
         <Stack.Screen name="遊び方" component={HowToUse} />
         <Stack.Screen name="活火山レベル" component={ContensMain} />
         <Stack.Screen name="活火山レベルを更新" component={ContentsSelectVolcano} />
+        <Stack.Screen name="個別火山ページ" component={VolcPage}/>
       </Stack.Navigator>
     </NavigationContainer>
   );

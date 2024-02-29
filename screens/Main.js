@@ -21,13 +21,13 @@ import { styles } from './styles'; // 新しく作成したstyles.jsファイル
 const App = (props) => { // propsを引数として受け取る  // 状態変数の定義
   return (
   <SafeAreaView style={[styles.safeArea,styles.container]}>
-    <StatusBar style="auto" />
+    <StatusBar style="default" />
       <Image
         source={require('../assets/常時観測火山分布図.png')} // 画像ファイルのパスを指定
         style={styles.TopMapImage}
       />
             
-      {/* メイン画面から鹿児島港発画面に遷移するフレーム */}
+      {/* メイン画面からレベル一覧に遷移するフレーム */}
       <TouchableOpacity
         
         onPress={() => {
@@ -35,11 +35,11 @@ const App = (props) => { // propsを引数として受け取る  // 状態変数
         }}
       >
       <View style={styles.startFrame}>
-        <Text style={[styles.mainTitle, styles.bottomColumn]}>始める</Text>
+        <Text style={[styles.subTitle, styles.bottomColumn]}>始める</Text>
       </View>
       </TouchableOpacity>
 
-      {/* メイン画面から桜島港発画面に遷移するフレーム */}
+      {/* メイン画面から遊び方に遷移するフレーム */}
       <TouchableOpacity
       
         onPress={() => {
@@ -48,7 +48,7 @@ const App = (props) => { // propsを引数として受け取る  // 状態変数
         }
       >
       <View style={styles.howToUseFrame}>
-        <Text style={[styles.mainTitle, styles.bottomColumn]}>遊び方</Text>
+        <Text style={[styles.subTitle, styles.bottomColumn]}>遊び方</Text>
       </View>
       </TouchableOpacity>
   </SafeAreaView>

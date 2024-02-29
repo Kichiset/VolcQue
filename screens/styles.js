@@ -1,4 +1,4 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet, Dimensions } from 'react-native';
 
 export const styles = StyleSheet.create({
 // エリア
@@ -12,8 +12,40 @@ export const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
   },
+  levelContainer: {
+    flexGrow: 0.3,
+    marginTop: 0,
+    justifyContent: 'top',
+    alignItems: 'center',
+  },
+  mapContainer: {
+    flexGrow: 5,
+    marginTop: 0,
+    justifyContent: 'top',
+    alignItems: 'center',
+  },
+  TopMapImage: {
+    width: 350,
+    height:350,
+    alignItems: 'center',
+    margin: 'auto',
+    borderRadius: 5,
+  },
+  mapImage: {
+    flexGrow: 0,
+    width: 300,
+    height:300,
+    alignItems: 'center',
+    marginTop: 50,
+    marginBottom: 50,
+  },
   subContainer: {
     flexGrow: 0.1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  selectionContainer: {
+    flexGrow: 10,
     justifyContent: 'center',
     alignItems: 'center',
   },
@@ -30,6 +62,7 @@ export const styles = StyleSheet.create({
     flexGrow: 0,
     justifyContent: 'center',
     alignItems: 'flex-start',
+    marginTop: 15,
     marginLeft: 10,
     textAlign: 'left',
   },
@@ -39,6 +72,28 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
     textAlign: 'center',
     backgroundColor:'#EBEBEB',
+  },
+  levelFrame:{
+    marginTop: 10,
+    backgroundColor: '#EBEBEB', //白藍
+    borderWidth: 2,
+    borderColor: 'white',
+    padding: 0,
+    borderRadius: 15,
+    alignItems: 'center',
+    margin: 'auto',
+    width: 350,
+  },
+  mapFrame:{
+    backgroundColor: '#D4ECEE',
+    padding: 0,
+    alignItems: 'center',
+    margin: 'auto',
+    width: 350,
+  },
+  map: {
+    width: 340,
+    height:300,
   },
   startFrame:{
     marginTop: 10,
@@ -62,6 +117,16 @@ export const styles = StyleSheet.create({
     margin: 'auto',
     width: 210,
   },
+  volReloadFrame:{
+    marginTop: 10,
+    backgroundColor: '#3087FF',
+    borderWidth: 2,
+    borderColor: 'white',
+    padding: 10,
+    borderRadius: 15,
+    alignItems: 'center',
+    margin: 'auto',
+  },
   button: {
     backgroundColor: '#EBEBEB', //白藍
     borderWidth: 1,
@@ -73,17 +138,23 @@ export const styles = StyleSheet.create({
     padding: 10,
     borderRadius: 8,
   },
-  
+  shareButton: {
+    backgroundColor: '#1A8CD8', //Twitterの色
+    alignItems: 'center',
+    padding: 10,
+    borderRadius: 8,
+  },
+
 // 三列カラム定義
   buttonContainer: {
     flexDirection: 'row', // ボタンを横並びに配置
     textAlign: 'center',
     justifyContent: 'center',
-    marginTop: 10,
+    marginTop: 15,
     marginBottom: 10,
     alignItems: 'center',
     margin: 'auto',
-    marginRight: 17, //よくわからないけどX7の部分は調整用のおまじない。分かったら修正！！
+    marginRight: 10, //よくわからないけどX7の部分は調整用のおまじない。分かったら修正！！
   },
   box: {
     textAlign: 'center',
@@ -101,12 +172,28 @@ export const styles = StyleSheet.create({
     textAlign: 'center',
     justifyContent: 'center',
     alignSelf: 'center',
-    flexGrow: 4,
+    flexGrow: 3,
   },
   box3: {
     flex: 1,
     alignItems: 'flex-end',
     justifyContent: 'center',
+  },
+  selectButtonContainer: {
+    flexDirection: 'row', // ボタンを横並びに配置
+    textAlign: 'center',
+    justifyContent: 'center',
+    marginTop: 5,
+    marginBottom: 5,
+    alignItems: 'center',
+    margin: 'auto',
+    marginRight: 10, //よくわからないけどX7の部分は調整用のおまじない。分かったら修正！！
+  },
+  selectBox: {
+    flex: 1,
+    alignItems: 'flex-start',
+    justifyContent: 'center',
+    marginLeft: 10,
   },
 
 // テキスト定義
@@ -129,6 +216,15 @@ export const styles = StyleSheet.create({
     marginBottom: 5,
     fontWeight: 'bold',
     alignItems: 'center',
+    textAlign: 'center',
+  },
+  changeInfTitle: {
+    fontSize: 24,
+    marginTop: 5,
+    marginBottom: 0,
+    fontWeight: 'bold',
+    alignItems: 'center',
+    textAlign: 'center',
   },
   current4DepartureTime: {
     fontSize: 30,
@@ -137,16 +233,31 @@ export const styles = StyleSheet.create({
     fontWeight: 'bold',
     alignItems: 'center',
   },
-    mainTitle: {
+  mainTitle: {
     fontSize: 24,
+    marginTop: 10,
+    marginBottom: 10,
+    fontWeight: 'bold',
+    alignItems: 'center',
+    textAlign: 'center',
+  },
+  subTitle: {
     color: 'white',
+    fontSize: 24,
     marginTop: 5,
     marginBottom: 5,
     fontWeight: 'bold',
     alignItems: 'center',
     textAlign: 'center',
-  },
-
+},
+chapterTitle: {
+  fontSize: 18,
+  marginTop: 10,
+  marginBottom: 5,
+  fontWeight: 'bold',
+  alignItems: 'center',
+  textAlign: 'center',
+},
   nextDeparture: {
     fontSize: 24,
     fontWeight: 'bold',
@@ -162,18 +273,6 @@ export const styles = StyleSheet.create({
     margin: 'auto',
     width: 350,
     height: 30,
-    borderRadius: 255,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  shareLink:{
-    marginTop: 10,
-    marginBottom: 10,
-    borderWidth: 1,
-    backgroundColor: '#FFFFFF',
-    margin: 'auto',
-    width: 200,
-    height: 60,
     borderRadius: 255,
     alignItems: 'center',
     justifyContent: 'center',
@@ -249,7 +348,19 @@ export const styles = StyleSheet.create({
   },
   buttonText: {
     color: '#1C1C1C',
-    fontSize: 20,
+    fontSize: 16,
+    fontWeight: 'bold',
+    alignItems: 'center',
+  },
+  buttonTextWhite: {
+    color: '#EBEBEB',
+    fontSize: 16,
+    fontWeight: 'bold',
+    alignItems: 'center',
+  },
+  shareButtonText: {
+    color: 'white',
+    fontSize: 16,
     fontWeight: 'bold',
     alignItems: 'center',
   },
@@ -284,13 +395,6 @@ export const styles = StyleSheet.create({
   linkButtonImage: {
     width: 200,
     height: 60,
-    borderRadius: 5,
-  },
-  TopMapImage: {
-    width: 300,
-    height:300,
-    alignItems: 'center',
-    margin: 'auto',
     borderRadius: 5,
   },
   seletKagoTopButton: {
@@ -328,13 +432,14 @@ export const styles = StyleSheet.create({
     wideButton: {
     justifyContent: 'center',
     flexDirection: 'column',
-    width: 200,
+    width: 220,
   },
   picker : {
-  transform: [
+    transform: [
      { scaleX: 1.3 }, 
      { scaleY: 1.3 },
-  ]
+  ],
+  backgroundColor: '#EBEBEB',
   },
     adBanner: {
     marginTop: 20,

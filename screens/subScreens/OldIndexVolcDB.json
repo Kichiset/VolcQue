@@ -1,0 +1,710 @@
+[
+	
+    { "type": "Feature", "properties": { "Name": "アトサヌプリ", "description": " <table><tr><td style=\"color:#0000FF;padding-right:1em;\" nowrap>ふりがな</td><td nowrap>あとさぬぷり</td></tr><tr><td style=\"color:#0000FF;padding-right:1em;\" nowrap>標高[m]</td><td nowrap>508</td></tr><tr><td style=\"color:#0000FF;padding-right:1em;\" nowrap>緯度</td><td nowrap>43°36′37″</td></tr><tr><td style=\"color:#0000FF;padding-right:1em;\" nowrap>経度</td><td nowrap>144°26′19″</td></tr><tr><td colspan=\"2\" nowrap><a href=\"http://www.data.jma.go.jp/svd/vois/data/sapporo/104_Atosanupri/104_index.html\" target=\"_blank\">火山活動履歴はこちら</a>（気象庁HP）</td></tr></table> ", "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ 144.438611111110987, 43.610277777777803 ] } },
+    {
+		"type": "Feature",
+		"properties": {
+			"Name": "雌阿寒岳",
+			"description": "",
+			"icon": null
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				144.008611111111,
+				43.3863888888889
+			]
+		}
+	},{ "type": "Feature", "properties": { "Name": "大雪山", "description": " <table><tr><td style=\"color:#0000FF;padding-right:1em;\" nowrap>ふりがな</td><td nowrap>たいせつざん</td></tr><tr><td style=\"color:#0000FF;padding-right:1em;\" nowrap>標高[m]</td><td nowrap>2291</td></tr><tr><td style=\"color:#0000FF;padding-right:1em;\" nowrap>緯度</td><td nowrap>43°39′49″</td></tr><tr><td style=\"color:#0000FF;padding-right:1em;\" nowrap>経度</td><td nowrap>142°51′15″</td></tr><tr><td colspan=\"2\" nowrap><a href=\"http://www.data.jma.go.jp/svd/vois/data/sapporo/107_Taisetusan/107_index.html\" target=\"_blank\">火山活動履歴はこちら</a>（気象庁HP）</td></tr></table> ", "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ 142.854166666666998, 43.663611111111102 ] } },
+	{
+		"type": "Feature",
+		"properties": {
+			"Name": "十勝岳",
+			"description": "",
+			"icon": null
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				142.686388888889,
+				43.4177777777778
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"Name": "樽前山",
+			"description": "",
+			"icon": null
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				141.376666666667,
+				42.6905555555556
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"Name": "倶多楽",
+			"description": "",
+			"icon": null
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				141.144444444444,
+				42.5052777777778
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"Name": "有珠山",
+			"description": "",
+			"icon": null
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				140.839166666667,
+				42.5438888888889
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"Name": "北海道駒ヶ岳",
+			"description": "",
+			"icon": null
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				140.677222222222,
+				42.0633333333333
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"Name": "恵山",
+			"description": "",
+			"icon": null
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				141.166111111111,
+				41.8047222222222
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"Name": "岩木山",
+			"description": "",
+			"icon": null
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				140.303055555556,
+				40.6558333333333
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"Name": "八甲田山",
+			"description": "",
+			"icon": null
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				140.877222222222,
+				40.6588888888889
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"Name": "十和田",
+			"description": "",
+			"icon": null
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				140.91,
+				40.4594444444445
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"Name": "秋田焼山",
+			"description": "",
+			"icon": null
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				140.756944444444,
+				39.9638888888889
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"Name": "岩手山",
+			"description": "",
+			"icon": null
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				141.001111111111,
+				39.8525
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"Name": "秋田駒ヶ岳",
+			"description": "",
+			"icon": null
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				140.799444444444,
+				39.7611111111111
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"Name": "鳥海山",
+			"description": "",
+			"icon": null
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				140.048888888889,
+				39.0991666666667
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"Name": "栗駒山",
+			"description": "",
+			"icon": null
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				140.788333333333,
+				38.9608333333333
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"Name": "蔵王山",
+			"description": "",
+			"icon": null
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				140.44,
+				38.1436111111111
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"Name": "吾妻山",
+			"description": "",
+			"icon": null
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				140.244444444444,
+				37.7352777777778
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"Name": "安達太良山",
+			"description": "",
+			"icon": null
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				140.283055555556,
+				37.6330555555556
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"Name": "磐梯山",
+			"description": "",
+			"icon": null
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				140.072222222222,
+				37.6011111111111
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"Name": "那須岳",
+			"description": "",
+			"icon": null
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				139.962777777778,
+				37.1247222222222
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"Name": "日光白根山",
+			"description": "",
+			"icon": null
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				139.375833333333,
+				36.7986111111111
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"Name": "草津白根山",
+			"description": "",
+			"icon": null
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				138.527777777778,
+				36.6438888888889
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"Name": "浅間山",
+			"description": "",
+			"icon": null
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				138.523055555556,
+				36.4063888888889
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"Name": "新潟焼山",
+			"description": "",
+			"icon": null
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				138.035833333333,
+				36.9208333333333
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"Name": "弥陀ヶ原",
+			"description": "",
+			"icon": null
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				137.589722222222,
+				36.5711111111111
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"Name": "焼岳",
+			"description": "",
+			"icon": null
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				137.586944444444,
+				36.2269444444444
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"Name": "乗鞍岳",
+			"description": "",
+			"icon": null
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				137.553611111111,
+				36.1063888888889
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"Name": "御嶽山",
+			"description": "",
+			"icon": null
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				137.480277777778,
+				35.8927777777778
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"Name": "白山",
+			"description": "",
+			"icon": null
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				136.771388888889,
+				36.155
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"Name": "富士山",
+			"description": "",
+			"icon": null
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				138.7275,
+				35.3608333333333
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"Name": "箱根山",
+			"description": "",
+			"icon": null
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				139.020833333333,
+				35.2333333333333
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"Name": "伊豆東部火山群",
+			"description": "",
+			"icon": null
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				139.094722222222,
+				34.9030555555556
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"Name": "伊豆大島",
+			"description": "",
+			"icon": null
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				139.394444444444,
+				34.7244444444444
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"Name": "新島",
+			"description": "",
+			"icon": null
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				139.270277777778,
+				34.3969444444444
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"Name": "神津島",
+			"description": "",
+			"icon": null
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				139.153055555556,
+				34.2194444444444
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"Name": "三宅島",
+			"description": "",
+			"icon": null
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				139.526111111111,
+				34.0936111111111
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"Name": "八丈島",
+			"description": "",
+			"icon": null
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				139.766111111111,
+				33.1369444444444
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"Name": "青ヶ島",
+			"description": "",
+			"icon": null
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				139.759166666667,
+				32.4583333333333
+			]
+		}
+	},
+	{ "type": "Feature", "properties": { "Name": "硫黄島", "description": " <table><tr><td style=\"color:#0000FF;padding-right:1em;\" nowrap>ふりがな</td><td nowrap>いおうとう</td></tr><tr><td style=\"color:#0000FF;padding-right:1em;\" nowrap>標高[m]</td><td nowrap>170</td></tr><tr><td style=\"color:#0000FF;padding-right:1em;\" nowrap>緯度</td><td nowrap>24°45′02″</td></tr><tr><td style=\"color:#0000FF;padding-right:1em;\" nowrap>経度</td><td nowrap>141°17′21″</td></tr><tr><td colspan=\"2\" nowrap><a href=\"http://www.data.jma.go.jp/svd/vois/data/tokyo/329_Ioto/329_index.html\" target=\"_blank\">火山活動履歴はこちら</a>（気象庁HP）</td></tr></table> ", "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ 141.289166666667001, 24.7505555555556 ] } },
+	{
+		"type": "Feature",
+		"properties": {
+			"Name": "鶴見岳・伽藍岳",
+			"description": "",
+			"icon": null
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				131.429722222222,
+				33.2866666666667
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"Name": "九重山",
+			"description": "",
+			"icon": null
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				131.248888888889,
+				33.0858333333333
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"Name": "阿蘇山",
+			"description": "",
+			"icon": null
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				131.103888888889,
+				32.8844444444444
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"Name": "雲仙岳",
+			"description": "",
+			"icon": null
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				130.298888888889,
+				32.7613888888889
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"Name": "霧島山",
+			"description": "",
+			"icon": null
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				130.861666666667,
+				31.9341666666667
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"Name": "桜島",
+			"description": "",
+			"icon": null
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				130.656666666667,
+				31.5925
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"Name": "薩摩硫黄島",
+			"description": "",
+			"icon": null
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				130.305277777778,
+				30.7930555555556
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"Name": "口永良部島",
+			"description": "",
+			"icon": null
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				130.217222222222,
+				30.4433333333333
+			]
+		}
+	},	
+	    {
+		"type": "Feature",
+		"properties": {
+			"Name": "諏訪之瀬島",
+			"description": " <table><tr><td style=\"color:#0000FF;padding-right:1em;\" nowrap>ふりがな</td><td nowrap>すわのせじま</td></tr><tr><td style=\"color:#0000FF;padding-right:1em;\" nowrap>標高[m]</td><td nowrap>796</td></tr><tr><td style=\"color:#0000FF;padding-right:1em;\" nowrap>緯度</td><td nowrap>29°38′18″</td></tr><tr><td style=\"color:#0000FF;padding-right:1em;\" nowrap>経度</td><td nowrap>129°42′50″</td></tr><tr><td colspan=\"2\" nowrap><a href=\"http://www.data.jma.go.jp/svd/vois/data/fukuoka/511_Suwanosejima/511_index.html\" target=\"_blank\">火山活動履歴はこちら</a>（気象庁HP）</td></tr></table> ",
+			"icon": null
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				129.713888888889,
+				29.6383333333333
+			]
+		}
+	}
+]
