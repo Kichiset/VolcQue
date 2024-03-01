@@ -3,21 +3,12 @@ import {
   View,
   Text,
   TouchableOpacity,
-  Button,
   Image,
-  StyleSheet,
   SafeAreaView,
   StatusBar,
-  ScrollView,
-  Linking,
-  Platform,
-  Animated,
-  Share,
-  AppState
 } from 'react-native';
 
 import { styles } from './styles'; // 新しく作成したstyles.jsファイルをインポート
-
 const App = (props) => { // propsを引数として受け取る  // 状態変数の定義
   return (
   <SafeAreaView style={[styles.safeArea,styles.container]}>

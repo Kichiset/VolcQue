@@ -5,398 +5,349 @@
 		"Name": "アトサヌプリ",
 		"Color": "blue",
 		"volLv": 0, "volcDescription": "天上天下唯我独尊",
-		"volcPicure": "../Data/"
+		"volcPicure": "../Data/0"
 	},
 	{
 		"longitude": 144.008611111111,
 		"latitude": 43.3863888888889,
 		"Name": "雌阿寒岳",
 		"Color": "orange",
-		"volLv": 0, "volcDescription": "",
-		"volcPicure": "../Data/"
+		"volcPicure": "../Data/1"
 	},
 	{
 		"longitude": 142.854166666667,
 		"latitude": 43.6636111111111,
 		"Name": "大雪山",
 		"Color": "#30AAFF",
-		"volLv": 0, "volcDescription": "",
-		"volcPicure": "../Data/"
+		"volcPicure": "../Data/2"
 	},
 	{
 		"longitude": 142.686388888889,
 		"latitude": 43.4177777777778,
 		"Name": "十勝岳",
 		"Color": "purple",
-		"volLv": 0, "volcDescription": "",
-		"volcPicure": "../Data/"
+		"volcPicure": "../Data/3"
 	},
 	{
 		"longitude": 141.376666666667,
 		"latitude": 42.6905555555556,
 		"Name": "樽前山",
 		"Color": "blue",
-		"volLv": 0, "volcDescription": "",
-		"volcPicure": "../Data/"
+		"volcPicure": "../Data/4"
 	},
 	{
 		"longitude": 141.144444444444,
 		"latitude": 42.5052777777778,
 		"Name": "倶多楽",
 		"Color": "blue",
-		"volLv": 0, "volcDescription": "",
-		"volcPicure": "../Data/"
+		"volcPicure": "../Data/5"
 	},
 	{
 		"longitude": 140.839166666667,
 		"latitude": 42.5438888888889,
 		"Name": "有珠山",
 		"Color": "blue",
-		"volLv": 0, "volcDescription": "",
-		"volcPicure": "../Data/"
+		"volcPicure": "../Data/6"
 	},
 	{
 		"longitude": 140.677222222222,
 		"latitude": 42.0633333333333,
 		"Name": "北海道駒ヶ岳",
 		"Color": "blue",
-		"volLv": 0, "volcDescription": "",
-		"volcPicure": "../Data/"
+		"volcPicure": "../Data/7"
 	},
 	{
 		"longitude": 141.166111111111,
 		"latitude": 41.8047222222222,
 		"Name": "恵山",
 		"Color": "blue",
-		"volLv": 0, "volcDescription": "",
-		"volcPicure": "../Data/"
+		"volcPicure": "../Data/8"
 	},
 	{
 		"longitude": 140.303055555556,
 		"latitude": 40.6558333333333,
 		"Name": "岩木山",
 		"Color": "blue",
-		"volLv": 0, "volcDescription": "",
-		"volcPicure": "../Data/"
+		"volcPicure": "../Data/9"
 	},
 	{
 		"longitude": 140.877222222222,
 		"latitude": 40.6588888888889,
 		"Name": "八甲田山",
 		"Color": "blue",
-		"volLv": 0, "volcDescription": "",
-		"volcPicure": "../Data/"
+		"volcPicure": "../Data/10"
 	},
 	{
 		"longitude": 140.91,
 		"latitude": 40.4594444444445,
 		"Name": "十和田",
 		"Color": "blue",
-		"volLv": 0, "volcDescription": "",
-		"volcPicure": "../Data/"
+		"volcPicure": "../Data/11"
 	},
 	{
 		"longitude": 140.756944444444,
 		"latitude": 39.9638888888889,
 		"Name": "秋田焼山",
 		"Color": "blue",
-		"volLv": 0, "volcDescription": "",
-		"volcPicure": "../Data/"
+		"volcPicure": "../Data/12"
 	},
 	{
 		"longitude": 141.001111111111,
 		"latitude": 39.8525,
 		"Name": "岩手山",
 		"Color": "blue",
-		"volLv": 0, "volcDescription": "",
-		"volcPicure": "../Data/"
+		"volcPicure": "../Data/13"
 	},
 	{
 		"longitude": 140.799444444444,
 		"latitude": 39.7611111111111,
 		"Name": "秋田駒ヶ岳",
 		"Color": "blue",
-		"volLv": 0, "volcDescription": "",
-		"volcPicure": "../Data/"
+		"volcPicure": "../Data/14"
 	},
 	{
 		"longitude": 140.048888888889,
 		"latitude": 39.0991666666667,
 		"Name": "鳥海山",
 		"Color": "blue",
-		"volLv": 0, "volcDescription": "",
-		"volcPicure": "../Data/"
+		"volcPicure": "../Data/15"
 	},
 	{
 		"longitude": 140.788333333333,
 		"latitude": 38.9608333333333,
 		"Name": "栗駒山",
 		"Color": "blue",
-		"volLv": 0, "volcDescription": "",
-		"volcPicure": "../Data/"
+		"volcPicure": "../Data/16"
 	},
 	{
 		"longitude": 140.44,
 		"latitude": 38.1436111111111,
 		"Name": "蔵王山",
 		"Color": "blue",
-		"volLv": 0, "volcDescription": "",
-		"volcPicure": "../Data/"
+		"volcPicure": "../Data/17"
 	},
 	{
 		"longitude": 140.244444444444,
 		"latitude": 37.7352777777778,
 		"Name": "吾妻山",
 		"Color": "blue",
-		"volLv": 0, "volcDescription": "",
-		"volcPicure": "../Data/"
+		"volcPicure": "../Data/18"
 	},
 	{
 		"longitude": 140.283055555556,
 		"latitude": 37.6330555555556,
 		"Name": "安達太良山",
 		"Color": "blue",
-		"volLv": 0, "volcDescription": "",
-		"volcPicure": "../Data/"
+		"volcPicure": "../Data/19"
 	},
 	{
 		"longitude": 140.072222222222,
 		"latitude": 37.6011111111111,
 		"Name": "磐梯山",
 		"Color": "blue",
-		"volLv": 0, "volcDescription": "",
-		"volcPicure": "../Data/"
+		"volcPicure": "../Data/20"
 	},
 	{
 		"longitude": 139.962777777778,
 		"latitude": 37.1247222222222,
 		"Name": "那須岳",
 		"Color": "blue",
-		"volLv": 0, "volcDescription": "",
-		"volcPicure": "../Data/"
+		"volcPicure": "../Data/21"
 	},
 	{
 		"longitude": 139.375833333333,
 		"latitude": 36.7986111111111,
 		"Name": "日光白根山",
 		"Color": "blue",
-		"volLv": 0, "volcDescription": "",
-		"volcPicure": "../Data/"
+		"volcPicure": "../Data/22"
 	},
 	{
 		"longitude": 138.527777777778,
 		"latitude": 36.6438888888889,
 		"Name": "草津白根山",
 		"Color": "blue",
-		"volLv": 0, "volcDescription": "",
-		"volcPicure": "../Data/"
+		"volcPicure": "../Data/23"
 	},
 	{
 		"longitude": 138.523055555556,
 		"latitude": 36.4063888888889,
 		"Name": "浅間山",
 		"Color": "blue",
-		"volLv": 0, "volcDescription": "",
-		"volcPicure": "../Data/"
+		"volcPicure": "../Data/24"
 	},
 	{
 		"longitude": 138.035833333333,
 		"latitude": 36.9208333333333,
 		"Name": "新潟焼山",
 		"Color": "blue",
-		"volLv": 0, "volcDescription": "",
-		"volcPicure": "../Data/"
+		"volcPicure": "../Data/25"
 	},
 	{
 		"longitude": 137.589722222222,
 		"latitude": 36.5711111111111,
 		"Name": "弥陀ヶ原",
 		"Color": "blue",
-		"volLv": 0, "volcDescription": "",
-		"volcPicure": "../Data/"
+		"volcPicure": "../Data/26"
 	},
 	{
 		"longitude": 137.586944444444,
 		"latitude": 36.2269444444444,
 		"Name": "焼岳",
 		"Color": "blue",
-		"volLv": 0, "volcDescription": "",
-		"volcPicure": "../Data/"
+		"volcPicure": "../Data/27"
 	},
 	{
 		"longitude": 137.553611111111,
 		"latitude": 36.1063888888889,
 		"Name": "乗鞍岳",
 		"Color": "blue",
-		"volLv": 0, "volcDescription": "",
-		"volcPicure": "../Data/"
+		"volcPicure": "../Data/28"
 	},
 	{
 		"longitude": 137.480277777778,
 		"latitude": 35.8927777777778,
 		"Name": "御嶽山",
 		"Color": "blue",
-		"volLv": 0, "volcDescription": "",
-		"volcPicure": "../Data/"
+		"volcPicure": "../Data/29"
 	},
 	{
 		"longitude": 136.771388888889,
 		"latitude": 36.155,
 		"Name": "白山",
 		"Color": "blue",
-		"volLv": 0, "volcDescription": "",
-		"volcPicure": "../Data/"
+		"volcPicure": "../Data/30"
 	},
 	{
 		"longitude": 138.7275,
 		"latitude": 35.3608333333333,
 		"Name": "富士山",
 		"Color": "blue",
-		"volLv": 0, "volcDescription": "",
-		"volcPicure": "../Data/"
+		"volcPicure": "../Data/31"
 	},
 	{
 		"longitude": 139.020833333333,
 		"latitude": 35.2333333333333,
 		"Name": "箱根山",
 		"Color": "blue",
-		"volLv": 0, "volcDescription": "",
-		"volcPicure": "../Data/"
+		"volcPicure": "../Data/32"
 	},
 	{
 		"longitude": 139.094722222222,
 		"latitude": 34.9030555555556,
 		"Name": "伊豆東部火山群",
 		"Color": "blue",
-		"volLv": 0, "volcDescription": "",
-		"volcPicure": "../Data/"
+		"volcPicure": "../Data/33"
 	},
 	{
 		"longitude": 139.394444444444,
 		"latitude": 34.7244444444444,
 		"Name": "伊豆大島",
 		"Color": "blue",
-		"volLv": 0, "volcDescription": "",
-		"volcPicure": "../Data/"
+		"volcPicure": "../Data/34"
 	},
 	{
 		"longitude": 139.270277777778,
 		"latitude": 34.3969444444444,
 		"Name": "新島",
 		"Color": "blue",
-		"volLv": 0, "volcDescription": "",
-		"volcPicure": "../Data/"
+		"volcPicure": "../Data/35"
 	},
 	{
 		"longitude": 139.153055555556,
 		"latitude": 34.2194444444444,
 		"Name": "神津島",
 		"Color": "blue",
-		"volLv": 0, "volcDescription": "",
-		"volcPicure": "../Data/"
+		"volcPicure": "../Data/36"
 	},
 	{
 		"longitude": 139.526111111111,
 		"latitude": 34.0936111111111,
 		"Name": "三宅島",
 		"Color": "blue",
-		"volLv": 0, "volcDescription": "",
-		"volcPicure": "../Data/"
+		"volcPicure": "../Data/37"
 	},
 	{
 		"longitude": 139.766111111111,
 		"latitude": 33.1369444444444,
 		"Name": "八丈島",
 		"Color": "blue",
-		"volLv": 0, "volcDescription": "",
-		"volcPicure": "../Data/"
+		"volcPicure": "../Data/38"
 	},
 	{
 		"longitude": 139.759166666667,
 		"latitude": 32.4583333333333,
 		"Name": "青ヶ島",
 		"Color": "blue",
-		"volLv": 0, "volcDescription": "",
-		"volcPicure": "../Data/"
+		"volcPicure": "../Data/39"
 	},
 	{
 		"longitude": 141.289166666667,
 		"latitude": 24.7505555555556,
 		"Name": "硫黄島",
 		"Color": "blue",
-		"volLv": 0, "volcDescription": "",
-		"volcPicure": "../Data/"
+		"volcPicure": "../Data/40"
 	},
 	{
 		"longitude": 131.429722222222,
 		"latitude": 33.2866666666667,
 		"Name": "鶴見岳・伽藍岳",
 		"Color": "blue",
-		"volLv": 0, "volcDescription": "",
-		"volcPicure": "../Data/"
+		"volcPicure": "../Data/41"
 	},
 	{
 		"longitude": 131.248888888889,
 		"latitude": 33.0858333333333,
 		"Name": "九重山",
 		"Color": "blue",
-		"volLv": 0, "volcDescription": "",
-		"volcPicure": "../Data/"
+		"volcPicure": "../Data/42"
 	},
 	{
 		"longitude": 131.103888888889,
 		"latitude": 32.8844444444444,
 		"Name": "阿蘇山",
 		"Color": "blue",
-		"volLv": 0, "volcDescription": "",
-		"volcPicure": "../Data/"
+		"volcPicure": "../Data/43"
 	},
 	{
 		"longitude": 130.298888888889,
 		"latitude": 32.7613888888889,
 		"Name": "雲仙岳",
 		"Color": "blue",
-		"volLv": 0, "volcDescription": "",
-		"volcPicure": "../Data/"
+		"volcPicure": "../Data/44"
 	},
 	{
 		"longitude": 130.861666666667,
 		"latitude": 31.9341666666667,
 		"Name": "霧島山",
 		"Color": "blue",
-		"volLv": 0, "volcDescription": "",
-		"volcPicure": "../Data/"
+		"volcPicure": "../Data/45"
 	},
 	{
 		"longitude": 130.656666666667,
 		"latitude": 31.5925,
 		"Name": "桜島",
 		"Color": "blue",
-		"volLv": 0, "volcDescription": "",
-		"volcPicure": "../Data/"
+		"volcPicure": "../Data/46"
 	},
 	{
 		"longitude": 130.305277777778,
 		"latitude": 30.7930555555556,
 		"Name": "薩摩硫黄島",
 		"Color": "blue",
-		"volLv": 0, "volcDescription": "",
-		"volcPicure": "../Data/"
+		"volcPicure": "../Data/47"
 	},
 	{
 		"longitude": 130.217222222222,
 		"latitude": 30.4433333333333,
 		"Name": "口永良部島",
 		"Color": "blue",
-		"volLv": 0, "volcDescription": "",
-		"volcPicure": "../Data/"
+		"volcPicure": "../Data/48"
 	},
 	{
 		"longitude": 129.713888888889,
 		"latitude": 29.6383333333333,
 		"Name": "諏訪之瀬島",
 		"Color": "blue",
-		"volLv": 0, "volcDescription": "",
-		"volcPicure": "../Data/"
+		"volcPicure": "../Data/49"
 	}
 ]

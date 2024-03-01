@@ -3,24 +3,15 @@ import {
   View,
   Text,
   TouchableOpacity,
-  Button,
-  Image,
-  StyleSheet,
   SafeAreaView,
   StatusBar,
-  ScrollView,
-  Linking,
-  Platform,
-  Animated,
   Share,
-  AppState,
-  Dimensions
 } from 'react-native';
 import MapView, { UrlTile, Marker, Geojson } from 'react-native-maps';
 
 import { styles } from '../styles'; // 新しく作成したstyles.jsファイルをインポート
 import VolcDB from './IndexVolcDB.json';
-  // 火山データベースの初期値を取得
+  // 火山データベースのを取得
   let locationData = VolcDB;
 
 // Admobバナー
@@ -56,7 +47,7 @@ const App = (props) => { // propsを引数として受け取る  // 状態変数
   return (
   <SafeAreaView style={styles.safeArea}>
     <View style={[styles.subContainer,styles.buttonContainer]}>
-    
+    <StatusBar style="default" />
     <TouchableOpacity
       style={[styles.box, styles.box1, styles.backButton]}
       onPress={() => {
@@ -103,7 +94,7 @@ const App = (props) => { // propsを引数として受け取る  // 状態変数
               longitude: data.longitude,
             }}
             title={locationData[index].Name}
-            pinColor={data.Color}
+            //pinColor={data.Color} //ここの色をサーバーサイドに持たせたい
           />
         ))}
       </MapView>
