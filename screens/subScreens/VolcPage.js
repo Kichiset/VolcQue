@@ -96,7 +96,7 @@ loadData(key[0].volcDescription);
     </TouchableOpacity>
 
     <View style={[styles.box, styles.box2]}>
-      <Text style={styles.changeInfTitle}>{key[0].Name}の</Text><Text style={styles.changeInfTitle}>情報を更新</Text>
+      <Text style={styles.changeInfTitle}>{key[index].Name}の</Text><Text style={styles.changeInfTitle}>情報を更新</Text>
     </View>
 
     <TouchableOpacity
@@ -109,7 +109,7 @@ loadData(key[0].volcDescription);
   
   <View style={styles.levelContainer}>
     <View style={styles.levelFrame}>
-      <Text style={[styles.mainTitle]}>{key[0].Name}のexp. ： <Text style={[{color: key[0].Color}]}>{key[0].volLv}</Text></Text>
+      <Text style={[styles.mainTitle]}>{key[index].Name}のexp. ： <Text style={[{color: key[0].Color}]}>{key[0].volLv}</Text></Text>
     </View>
   </View>
 
@@ -136,7 +136,7 @@ loadData(key[0].volcDescription);
    <View style={[styles.levelContainer]}>
       <View style={styles.levelFrame}>
      
-          <Text style={[styles.chapterTitle]}>{key[0].Name}のexp.更新</Text>
+          <Text style={[styles.chapterTitle]}>{key[index].Name}のexp.更新</Text>
           <View>
           {/*Picker with multiple chose to choose*/}
           {/*selectedValue to set the preselected value if any*/}
@@ -162,7 +162,7 @@ loadData(key[0].volcDescription);
           console.log("ここに、経県値操作用のリールと、思い出をキーボード入力")
         }}>
         <View>
-        <Text style={[styles.chapterTitle]}>{key[0].Name}の思い出</Text>
+        <Text style={[styles.chapterTitle]}>{key[index].Name}の思い出</Text>
         <TextInput
         editable
         multiline
@@ -178,7 +178,7 @@ loadData(key[0].volcDescription);
       {/* メイン画面からレベル一覧に遷移するフレーム */}
       <TouchableOpacity
         onPress={() => {
-          saveData(key[0].volcDescription,value);
+          saveData(key[index].volcDescription,value);
           console.log("ここに、ファイルのIndexを読んで書き込む操作をする")
           props.navigation.navigate('活火山レベル'); // 遷移先の画面名を指定
           console.log(key.volcDescription,value)

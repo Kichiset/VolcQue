@@ -4,10 +4,10 @@
     "slug": "VolcQuest",
     "version": "0.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icon.jpg",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splash.jpg",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -15,17 +15,30 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": false
     },
     "android": {
+      "versionCode": 1,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundImage": "./assets/splash.jpg",
+        "foregroundImage": "./assets/icon.jpg",
+        "backgroundColor": "#D4ECEE"
       },
-      "package": "com.kichiset.VolcQuest"
+      "package": "com.kichiset.VolcQuest",
+      "googleServicesFile": "./google-services.json"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "plugins": [
+        "@react-native-firebase/app",
+        "@react-native-firebase/perf",
+        "@react-native-firebase/crashlytics"
+      ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a478eaf5-40d8-4710-879e-c0a1af414b27"
+      }
     }
   }
 }

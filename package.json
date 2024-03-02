@@ -18,6 +18,8 @@
     "expo-navigation-bar": "~2.3.0",
     "expo-splash-screen": "~0.20.5",
     "expo-status-bar": "~1.6.0",
+    "firebase": "^10.8.1",
+    "firebase-tools": "^13.4.0",
     "import": "^0.0.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",

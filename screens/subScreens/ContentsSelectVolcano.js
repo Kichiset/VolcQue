@@ -514,9 +514,12 @@ const App = (props) => { // propsを引数として受け取る  // 状態変数
           </TouchableOpacity>
 
           <TouchableOpacity
-            style={[styles.box, styles.selectBox, styles.backButton, {backgroundColor: locationData[46].Color}]}
-            onPress={onShare}>
-            <Text style={styles.buttonTextWhite}>{locationData[46].Name}</Text>
+            style={[styles.box, styles.selectBox, styles.backButton, {backgroundColor: locationData[0].Color}]}
+            onPress={() => {
+              index = 46;
+              props.navigation.navigate('個別火山ページ', index); // 遷移先の画面名を指定
+            }}>
+            <Text style={[styles.buttonTextWhite, { fontSize: 14 }]}>{locationData[46].Name}</Text>
           </TouchableOpacity>
         </View>
 
