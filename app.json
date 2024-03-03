@@ -2,14 +2,14 @@
   "expo": {
     "name": "VolcQuest",
     "slug": "VolcQuest",
-    "version": "0.0.0",
+    "version": "0.0.01",
     "orientation": "portrait",
-    "icon": "./assets/icon.jpg",
+    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.jpg",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#D4ECEE"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -20,8 +20,8 @@
     "android": {
       "versionCode": 1,
       "adaptiveIcon": {
-        "backgroundImage": "./assets/splash.jpg",
-        "foregroundImage": "./assets/icon.jpg",
+        "backgroundImage": "./assets/splash.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#D4ECEE"
       },
       "package": "com.kichiset.VolcQuest",

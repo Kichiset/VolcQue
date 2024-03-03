@@ -3,8 +3,6 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View} from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import Storage from 'react-native-storage';
-import { AsyncStorage } from 'react-native';
 
 import Main from './screens/Main';
 import HowToUse from './screens/subScreens/HowToUse';
@@ -15,14 +13,6 @@ import VolcPage from './screens/subScreens/VolcPage'
 const Stack = createNativeStackNavigator();
 
 export default function App() {
-  useEffect(() => {
-    requestPermissionsAsync();
-  })
-
-  // トラッキング可否を保持する。これをContextなどに持たせて他の画面でも利用する
-  // ※ trueでトラッキングしない。falseでトラッキングする
-  const [nonPersonalizedOnly, setNonPersonalizedOnly] = useState(true);
-
 
   return (
     <NavigationContainer>
@@ -37,13 +27,7 @@ export default function App() {
   );
 }
 
-//通知の許可をリクエスト
-const requestPermissionsAsync = async () => {
-  const { granted } = await Notifications.getPermissionsAsync();
-  //if (granted) { return }
 
-  await Notifications.requestPermissionsAsync();
-}
 
 const styles = StyleSheet.create({
   container: {
